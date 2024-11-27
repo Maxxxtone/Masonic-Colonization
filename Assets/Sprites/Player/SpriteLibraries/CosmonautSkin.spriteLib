@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_skin_1_0
+      m_Hash: 744449599
+      m_Sprite: {fileID: 1564375544, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1564375544, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_1
+      m_Hash: 458774185
+      m_Sprite: {fileID: -1385583813, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1385583813, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_2
+      m_Hash: 38864659
+      m_Sprite: {fileID: 139886719, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 139886719, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_3
+      m_Hash: 894842757
+      m_Sprite: {fileID: -1100929145, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1100929145, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_4
+      m_Hash: 724738598
+      m_Sprite: {fileID: -494009839, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -494009839, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_5
+      m_Hash: 473273008
+      m_Sprite: {fileID: -422121723, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -422121723, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  - m_Name: Move
+    m_Hash: 252483654
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_skin_1_6
+      m_Hash: 87868170
+      m_Sprite: {fileID: 1091328551, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1091328551, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_7
+      m_Hash: 842789788
+      m_Sprite: {fileID: 789980751, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 789980751, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_8
+      m_Hash: 579137037
+      m_Sprite: {fileID: -623378866, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -623378866, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_9
+      m_Hash: 360963739
+      m_Sprite: {fileID: 629161631, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 629161631, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_10
+      m_Hash: 466263099
+      m_Sprite: {fileID: 575602334, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 575602334, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    - m_Name: player_skin_1_11
+      m_Hash: 751676589
+      m_Sprite: {fileID: -1087246387, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1087246387, guid: 2bf34c1c6f9dabb438ea4be5c390b8c0, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638683243447991527
+  m_Version: 1
