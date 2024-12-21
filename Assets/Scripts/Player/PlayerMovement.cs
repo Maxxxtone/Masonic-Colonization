@@ -12,11 +12,11 @@ public class PlayerMovement : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
     }
     //by mouse position
-    public void RotateBody(Vector2 movementDirection)
+    public void RotateBody(Vector2 mousePosition)
     {
-        if (movementDirection.x > 0)
+        if (mousePosition.x > 0)
             transform.localEulerAngles = Vector3.zero;
-        else if (movementDirection.x < 0)
+        else if (mousePosition.x < 0)
             transform.localEulerAngles = new Vector3(0, 180, 0);
     }
     public void Move(Vector2 direction)

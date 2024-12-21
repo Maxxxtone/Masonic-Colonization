@@ -17,7 +17,9 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
         _inputHandler = GetComponent<InputHandler>();
 
-        _inputHandler.AttackButtonTriggered += _weaponHolder.MeleeAttack;
+        _inputHandler.MeleeAttackButtonTriggered += _weaponHolder.MeleeAttack;
+        _inputHandler.RangeAttackButtonTriggered += _weaponHolder.StartShooting;
+        _inputHandler.RangeAttackButtonReleased += _weaponHolder.StopShooting;
 
         _fsm = new FSM();
         _fsm.AddState(new FSMPlayerStateIdle(_fsm, this));
@@ -27,6 +29,8 @@ public class Player : MonoBehaviour
     private void Update()
     {
         _fsm.Update();
+        _weaponHolder.HandleRotation(_inputHandler.WorldMousePosition);
+        Movement.RotateBody(InputHandler.WorldMousePosition);
     }
     private void FixedUpdate()
     {
@@ -34,6 +38,8 @@ public class Player : MonoBehaviour
     }
     private void OnDisable()
     {
-        _inputHandler.AttackButtonTriggered -= _weaponHolder.MeleeAttack;
+        _inputHandler.MeleeAttackButtonTriggered -= _weaponHolder.MeleeAttack;
+        _inputHandler.RangeAttackButtonTriggered -= _weaponHolder.StartShooting;
+        _inputHandler.RangeAttackButtonReleased -= _weaponHolder.StopShooting;
     }
 }

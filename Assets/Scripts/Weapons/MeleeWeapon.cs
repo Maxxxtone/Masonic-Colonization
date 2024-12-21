@@ -10,9 +10,9 @@ public class MeleeWeapon : MonoBehaviour
     public void Attack()
     {
         Sequence attackAnimation = DOTween.Sequence();
-        attackAnimation.Append(transform.DOLocalRotate(new Vector3(0, 0, 50), .1f, RotateMode.LocalAxisAdd)).
-            Append(transform.DOLocalRotate(new Vector3(0, 0, -280), .15f, RotateMode.LocalAxisAdd)).
-            Append(transform.DOLocalRotate(new Vector3(0, 0, 0), .1f));
+        attackAnimation.Append(transform.parent.DOLocalRotate(new Vector3(0, 0, 50), .1f, RotateMode.LocalAxisAdd)).
+            Append(transform.parent.DOLocalRotate(new Vector3(0, 0, -280), .15f, RotateMode.LocalAxisAdd)).
+            Append(transform.parent.DOLocalRotate(new Vector3(0, 0, 0), .1f));
         attackAnimation.Play();
         StartCoroutine(DisableWeaponAfterAttack());
     }

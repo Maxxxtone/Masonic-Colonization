@@ -11,7 +11,6 @@ public class FSMPlayerStateMove : FSMState
     }
     public override void Update()
     {
-        _player.Movement.RotateBody(_player.InputHandler.MovementDirection);
         if(_player.InputHandler.MovementDirection.sqrMagnitude == 0)
             FSM.SetState<FSMPlayerStateIdle>();
     }

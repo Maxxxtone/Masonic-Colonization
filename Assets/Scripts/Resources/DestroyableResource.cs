@@ -8,12 +8,12 @@ public class DestroyableResource : MonoBehaviour, IDamagable
     public BasePool<PickupItem> Items;
     [SerializeField] private int _maxHP = 50;
     [SerializeField] private LootDropper _lootPoint;
-    private int _hp;
+    private float _hp;
     private void Start()
     {
         _hp = _maxHP;
     }
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         _hp = Mathf.Clamp(_hp - damage, 0, _maxHP);
         transform.DOShakePosition(.1f, .25f, 10);
